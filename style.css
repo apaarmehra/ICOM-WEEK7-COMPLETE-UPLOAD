@@ -1,0 +1,130 @@
+
+
+/* CLASS  */
+.ICOM {
+    background-color: red; 
+    height: 100px; 
+    
+  }
+  
+  
+  /* ID */
+  #Apaar {
+    background-color: red; 
+    padding: 20px;
+    border: 5px solid black; 
+    color: black; 
+    font-family: "Playwrite HU", cursive;
+    text-align: center;
+  
+    width: 90%;              /* set a fixed width */
+    /* max-width: 600px;        optional, for responsiveness */
+    margin: 40px auto;       /* centers the div horizontally */
+    transition: background-color 0.3s ease;  /* smooth hover effect */
+  }
+
+  
+  .gradient-box {
+      background: linear-gradient(to right, #ff7e5f, #feb47b);
+      padding: 20px;
+      text-align: center;
+      border-radius: 5px;
+      color: white;
+  }
+  
+  .MainMenu { 
+  background-color: grey; 
+  padding: 15px;
+  display: flex; 
+  gap: 30px;   
+  align-items: center;   
+  justify-content: center;   
+  }
+  
+  a {
+    color: white;
+  }
+  
+  a:hover {
+    color: red;
+  }
+  
+  a:visited { 
+  color: pink; }
+  
+  
+  #Apaar:hover {
+    
+    background-color: green; 
+    color: black; 
+  } 
+
+  .grid-container {
+
+    display: grid;
+    grid-template-columns:  1fr 1fr ;
+    grid-gap: 25px; 
+    justify-content: space-evenly;
+
+   }
+
+   /* Header */
+
+
+   /* MEDIA QUERIES  */
+
+   @media (max-width: 200px) {
+
+    #Apaar {
+        background-color: yellow; 
+        padding: 20px;
+        border: 5px solid black; 
+        color: black; 
+        font-family: "Playwrite HU", cursive;
+        text-align: center;
+      
+        width: 60%;              /* set a fixed width */
+        max-width: 600px;        /* optional, for responsiveness */
+        margin: 40px auto;       /* centers the div horizontally */
+        transition: background-color 0.3s ease;  /* smooth hover effect */
+      }
+
+   }
+
+
+   /* THIS IS MEDIA QUERY 1 for PHONES 500PX */
+
+   @media (max-width: 600px) {
+
+    #Apaar {
+        background-color: rgb(170, 95, 95); 
+        padding: 20px;
+        border: 5px solid black; 
+        color: black; 
+        font-family: "Playwrite HU", cursive;
+        text-align: center;
+      
+        width: 60%;              /* set a fixed width */
+        /* max-width: 600px;        optional, for responsiveness */
+        margin: 40px auto;       /* centers the div horizontally */
+        transition: background-color 0.3s ease;  /* smooth hover effect */
+      }
+} 
+
+
+@media (min-width: 601px) and (max-width: 1024px) { 
+
+    #Apaar {
+        background-color: rgb(170, 95, 95); 
+        padding: 20px;
+        border: 5px solid white; 
+        color: black; 
+        font-family: "Playwrite HU", cursive;
+        text-align: center;
+      
+        width: 80%;              /* set a fixed width */
+        /* max-width: 600px;        optional, for responsiveness */
+        margin: 40px auto;       /* centers the div horizontally */
+        transition: background-color 0.3s ease;  /* smooth hover effect */
+      }
+}
